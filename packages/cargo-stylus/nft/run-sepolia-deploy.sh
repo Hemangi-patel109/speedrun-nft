@@ -51,7 +51,8 @@ echo "Connected to Arbitrum Sepolia!"
 
 # Deploy the NFT contract using cargo stylus
 echo "Deploying the NFT contract using cargo stylus..."
-deploy_output=$(cargo stylus deploy -e "$SEPOLIA_RPC_URL" --private-key "$PRIVATE_KEY" --no-verify 2>&1)
+cargo stylus deploy -e "$SEPOLIA_RPC_URL" --private-key "$PRIVATE_KEY" --no-verify
+# deploy_output=$(cargo stylus deploy -e "$SEPOLIA_RPC_URL" --private-key "$PRIVATE_KEY" --no-verify 2>&1)
 
 if [[ $? -ne 0 ]]; then
     echo "Error: NFT contract deployment failed"

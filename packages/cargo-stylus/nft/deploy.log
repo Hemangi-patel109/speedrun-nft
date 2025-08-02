@@ -1,0 +1,26 @@
+Checking connection to Arbitrum Sepolia...
+Connected to Arbitrum Sepolia!
+Deploying the NFT contract using cargo stylus...
+[0;0m[90mBuilding project with Cargo.toml version: 0.1.0[0;0m
+[0;0m[90mstripped custom section from user wasm to remove any sensitive data[0;0m
+[0;0m[90mcontract size: [33;1m19.7 KiB[0;0m[90m (20160 bytes)[0;0m
+[0;0m[90mwasm size: [38;5;48;1m75.0 KiB[0;0m[90m (76771 bytes)[0;0m
+[0;0m[90mFile used for deployment hash: ./Cargo.lock[0;0m
+[0;0m[90mFile used for deployment hash: ./Cargo.toml[0;0m
+[0;0m[90mFile used for deployment hash: ./rust-toolchain.toml[0;0m
+[0;0m[90mFile used for deployment hash: ./src/erc721.rs[0;0m
+[0;0m[90mFile used for deployment hash: ./src/lib.rs[0;0m
+[0;0m[90mFile used for deployment hash: ./src/main.rs[0;0m
+[0;0m[90mproject metadata hash computed on deployment: "c88a0096b1370b50967f1da030d599603a48f68456ea4c9a43bd855049cf14c5"[0;0m
+[0;0m[90mstripped custom section from user wasm to remove any sensitive data[0;0m
+[0;0m[90mcontract size: [33;1m19.7 KiB[0;0m[90m (20160 bytes)[0;0m
+[0;0m[90mchecking whether the contract has a constructor...[0;0m
+[0;0m[90mdeployed code at address: [38;5;183;1m0xa02b626bf29d7c4b6865468fbe742ba7734c640f[0;0m[0;0m
+[0;0m[90mdeployment tx hash: [38;5;183;1m0x9cdb449f52a7d52995d4df4d8be35c7547a507d8797a24596ddf01e9090cbaa8[0;0m[0;0m
+[0;0m[90mwasm already activated![0;0m
+
+[38;5;48;1mNOTE: We recommend running cargo stylus cache bid a02b626bf29d7c4b6865468fbe742ba7734c640f 0 to cache your activated contract in ArbOS.
+Cached contracts benefit from cheaper calls. To read more about the Stylus contract cache, see
+https://docs.arbitrum.io/stylus/how-tos/caching-contracts[0;0m
+Error: Could not extract deployment transaction hash
+Deploy output: 
